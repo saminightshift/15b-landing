@@ -24,11 +24,20 @@ const Home = () => (
 
     <div className="signup">
           <h3>Please fill in the form below to register your interest.</h3>
+
     </div>
 
     <style jsx>{`
-      
      
+     h3 {
+      font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      font-weight: 400;
+     }
+     
+      .signup {
+        padding: 25px;
+      }
+
       .hero-banner-image { 
         width: 100%;
         height: 100%;
