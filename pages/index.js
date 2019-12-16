@@ -11,37 +11,56 @@ const Home = () => (
 
     <Nav />
 
-    <div className="hero">
-      <h1 className="title">Welcome to Next.js!</h1>
-      <p className="description">
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
 
-      <div className="row">
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Learn more about Next.js in the documentation.</p>
-        </a>
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Next.js Learn &rarr;</h3>
-          <p>Learn about Next.js by following an interactive tutorial!</p>
-        </a>
-        <a
-          href="https://github.com/zeit/next.js/tree/master/examples"
-          className="card"
-        >
-          <h3>Examples &rarr;</h3>
-          <p>Find other example boilerplates on the Next.js GitHub.</p>
-        </a>
+  
+    <div className="hero">
+        <h1 className="title">15below Customer Conference 2020</h1>
+        <h3 className="description">
+        Register your interest now!
+        </h3>
       </div>
+			<img className="event-banner hide-on-mobile" />
+			<img className="hero-banner-image hide-on-mobile"/>
+
+    <div className="signup">
+          <h3>Please fill in the form below to register your interest.</h3>
     </div>
 
     <style jsx>{`
+      
+     
+      .hero-banner-image { 
+        width: 100%;
+        height: 100%;
+        max-width: 2560px;
+        margin: 0;
+        
+      }
+      
+      .event-banner { 
+        position: absolute;
+        display: block;
+        left: 50%; 
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        top: 30px;
+        width: 640px;
+        background: url('/event-banner-02.svg') no-repeat;
+      }
+      
+      h1 {
+        font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 500 !important;
+      }
+      
       .hero {
         width: 100%;
-        color: #333;
+        color: #fff;
+        height: 100%;
+        background: url('/Long-thin-infographic.png') no-repeat 1%;
       }
       .title {
+        font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
         margin: 0;
         width: 100%;
         padding-top: 80px;
