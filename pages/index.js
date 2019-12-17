@@ -35,7 +35,7 @@ const Home = () => (
      }
      
       .signup {
-        padding: 25px;
+        padding: 18px 30px 24px;
       }
 
       .hero-banner-image { 
