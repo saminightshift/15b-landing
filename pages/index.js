@@ -54,7 +54,7 @@ const Home = () => (
         transform: translateX(-50%);
         top: 30px;
         width: 640px;
-        background: url('/event-banner-02.svg') no-repeat;
+        background: url('/iStock_000028193904XLarge33.jpg') no-repeat;
       }
       
       h1 {
@@ -66,8 +66,9 @@ const Home = () => (
         width: 100%;
         color: #fff;
         height: 100%;
-        background: url('/Long-thin-infographic.png') no-repeat 1%;
+        background: url('/iStock_000028193904XLarge33.jpg') no-repeat 1%;
       }
+      
       .title {
         font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
         margin: 0;
