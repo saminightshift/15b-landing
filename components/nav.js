@@ -14,6 +14,31 @@ const Nav = () => (
           <a>Sign Up</a>
         </Link>
       </li>
+      <li>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/agenda">
+          <a>Agenda</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/attend">
+          <a>Why Attend?</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/testimonials">
+          <a>Testimonials</a>
+        </Link>
+      </li>
+      <li>
+        <Link href="/Location">
+          <a>Locations</a>
+        </Link>
+      </li>
     </ul>
 
     <style jsx>{`
