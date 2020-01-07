@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Hero from '../components/hero'
 
 const Home = () => (
   <div>
@@ -9,23 +10,14 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <Nav />
+    
+      <Hero />
 
+      <Nav />
 
-  
-    <div className="hero">
-        <h1 className="title">15below Customer Conference 2020</h1>
-        <h3 className="description">
-        Register your interest now!
-        </h3>
-      </div>
-			<img className="event-banner hide-on-mobile" />
-			<img className="hero-banner-image hide-on-mobile"/>
+      <h3>Please fill in the form below to register your interest.</h3>
 
-    <div className="signup">
-          <h3>Please fill in the form below to register your interest.</h3>
-
-    </div>
+   
 
     <style jsx>{`
      
