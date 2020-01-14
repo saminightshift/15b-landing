@@ -10,45 +10,36 @@ const Nav = () => (
         </Link>
       </li>
       <li>
-        <Link href="/signup">
-          <a>Sign Up</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/agenda">
+        <Link href="../components/agenda">
           <a>Agenda</a>
         </Link>
       </li>
       <li>
-        <Link href="/attend">
+        <Link href="../components/attend">
           <a>Why Attend?</a>
         </Link>
       </li>
       <li>
-        <Link href="/testimonials">
+        <Link href="../components/testimonials">
           <a>Testimonials</a>
         </Link>
       </li>
       <li>
-        <Link href="/Location">
+        <Link href="../components/Location">
           <a>Locations</a>
         </Link>
       </li>
     </ul>
 
+
     <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-      }
       nav {
         text-align: center;
+        border-bottom: 2px solid red;
       }
+
+      color: #000000;
+
       ul {
         display: flex;
         justify-content: space-between;
@@ -61,9 +52,15 @@ const Nav = () => (
         padding: 6px 8px;
       }
       a {
-        color: #067df7;
+        color: #000000;
         text-decoration: none;
         font-size: 13px;
+        font-weight: bold;
+        border-bottom: 2px solid #ffffff;
+      }
+
+      a:hover {
+        border-bottom: 2px solid #e00034;
       }
     `}</style>
   </nav>

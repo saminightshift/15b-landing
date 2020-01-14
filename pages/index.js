@@ -2,6 +2,12 @@ import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
 import Subscribe from '../components/subscribe'
+import About from '../components/about'
+import Attend from '../components/attend'
+import Testimonials from '../components/testimonials'
+import Location from '../components/location'
+import Divider from '../components/divider'
+import Hero from '../components/hero'
 
 const Home = () => (
   <div>
@@ -9,28 +15,67 @@ const Home = () => (
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
+    <Nav />
+    <Hero />
+    <div className="mainBody">
+          <h3>Please fill in the form below to register your interest.</h3>
 
-    
-    <h1 className="title">15below Customer Conference 2020</h1>
+          <Subscribe />
+          <Divider />
+          <About />
+    </div> 
+    <div className="footer">
+        <p className="copyDate">© 2020 15below All Rights Reserved</p>
+        <p className="compReg">Company Registered in England No. 3945289</p>
+    </div>
 
-     
-<img className="event-banner hide-on-mobile" />
-<img className="hero-banner-image hide-on-mobile"/>
-
-      <Nav />
-
-      <h3>Please fill in the form below to register your interest.</h3>
-
-      <Subscribe />
-   
   <style jsx>{`
      
+     :global(body) {
+      margin: 0;
+      font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    .footer {
+      height: 100px;
+      width: 100%;
+      background-color: #2F3C46;
+      color: #ffffff;
+      font-size:12px;
+    }
+
+    .copyDate {
+      width: 40%;
+      float: left;
+      padding: 25px;
+    }
+
+    .compReg {
+      width: 40%;
+      float: right;
+      padding: 25px;
+    }
+    .mainBody {
+      margin: 0 auto;
+      padding: 25px;
+    }
+
+    .nav {
+      colour: red;
+    }
+
      h3 {
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
       font-weight: 400;
       margin: auto;
      }
      
+     .button {
+      background: red;
+      border-radius: 8px;
+      color: white;
+    }
+
       .signup {
         padding: 18px 30px 24px;
       }
@@ -46,9 +91,6 @@ const Home = () => (
       .event-banner { 
         position: absolute;
         display: block;
-        left: 50%; 
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
         top: 30px;
         width: 640px;
         background: url('/iStock_000028193904XLarge33.jpg') no-repeat;
@@ -59,13 +101,7 @@ const Home = () => (
         font-weight: 500 !important;
       }
       
-      .hero {
-        width: 100%;
-        color: #fff;
-        height: 100%;
-        background: url('/iStock_000028193904XLarge33.jpg') no-repeat 1%;
-      }
-      
+    
       .title {
         font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
         margin: 0;

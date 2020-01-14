@@ -112,11 +112,16 @@ const Attend = () => (
       }
     `}</style>
 
+    
+
     </attend>
+
+
+
 )
 
 
 
 
 
-export default attend
+export default Attend
