@@ -8,11 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "increase-memory-limit": "^1.0.7",
     "next": "^9.1.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-mailchimp-form": "^1.0.2",
     "react-mailchimp-subscribe": "^2.1.0"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1"
   }
 }

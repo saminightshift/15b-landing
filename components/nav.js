@@ -1,31 +1,37 @@
 import React from 'react'
 import Link from 'next/link'
 
+
 const Nav = () => (
   <nav>
     <ul>
+      <li className="navLogo">
+        <Link href="#">
+        <img src="/logo.png"></img>
+        </Link>
+      </li>
       <li>
         <Link href="/">
           <a>Home</a>
         </Link>
       </li>
       <li>
-        <Link href="../components/agenda">
+        <Link href="/agenda">
           <a>Agenda</a>
         </Link>
       </li>
       <li>
-        <Link href="../components/attend">
+        <Link href="/attend">
           <a>Why Attend?</a>
         </Link>
       </li>
       <li>
-        <Link href="../components/testimonials">
+        <Link href="/testimonials">
           <a>Testimonials</a>
         </Link>
       </li>
       <li>
-        <Link href="../components/Location">
+        <Link href="/location">
           <a>Locations</a>
         </Link>
       </li>
@@ -35,7 +41,16 @@ const Nav = () => (
     <style jsx>{`
       nav {
         text-align: center;
-        border-bottom: 2px solid red;
+        border-bottom: 2px solid #e00034;
+      }
+
+      .navLogo {
+        width: 10%;
+        height: auto;
+      }
+
+      .navLogo img {
+        width: 100%;
       }
 
       color: #000000;

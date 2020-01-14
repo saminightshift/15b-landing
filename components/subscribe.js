@@ -5,6 +5,7 @@ import Mailchimp from 'react-mailchimp-form'
 class Subscribe extends Component {
   render() {
     return (
+      
         <Mailchimp className="formsub"
         action='https://15below.us4.list-manage.com/subscribe/post?u=99107eeea50cd032d861c158f&amp;id=6b874089ea'
         fields={[
