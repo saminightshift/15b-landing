@@ -3,6 +3,7 @@ import React from 'react'
 
 const About = () => (
 <about>
+  <div className="row">
   <div className="aboutBody">
 
   <div className="Cta">
@@ -30,8 +31,22 @@ const About = () => (
 
     <p>This is your chance to network with and learn from your peers from other best-in-class travel companies in a relaxed setting where everything is about passenger communications. You’ll meet a broad range of people from different departments and levels, who are all focused on creating the best customer experience possible.</p>
   </div>
+  
+  <div className="verticalDiv">&nbsp;</div>
+  
+  <div className="col2">
+    <img src="./video.jpg"></img>
+  </div>
+
+  </div>
+
     <style jsx>{`
      
+     body {
+       height: 100%;
+       width: 100%;
+     }
+
      h3 {
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
       font-weight: 400;
@@ -64,9 +79,33 @@ const About = () => (
     }
 
     .aboutBody {
+      width: 70%;
+      float: left;
       padding: 5px 35px 35px 0;
     }
 
+    .verticalDiv {
+      width: 2%;
+      background-color: #fff;
+      border-left: dotted 2px #d6dada;
+      height: 54rem !important;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .col2 {
+      width: 28%;
+    }
+
+    col2 img {
+      margin: auto;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
      .Cta {
       background-color: #e00034;
       width: 150px;

@@ -8,7 +8,7 @@ const Divider = () => (
 
 hr {
     border-top: none;
-    border-bottom: 1px dotted #d6dada;
+    border-bottom: 2px dotted #d6dada;
     margin-top: 15px;
     margin-top: 0.9375rem;
 } 
