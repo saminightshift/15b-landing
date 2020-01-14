@@ -5,11 +5,6 @@ import Link from 'next/link'
 const Nav = () => (
   <nav>
     <ul>
-      <li className="navLogo">
-        <Link href="#">
-        <img src="/logo.png"></img>
-        </Link>
-      </li>
       <li>
         <Link href="/">
           <a>Home</a>

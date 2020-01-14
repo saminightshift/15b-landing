@@ -1,10 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
+import './style.css';
 import Nav from '../components/nav'
 import Subscribe from '../components/subscribe'
 import About from '../components/about'
 import Divider from '../components/divider'
-
+import Footer from '../components/footer'
     const Home = () => (
       <div>
         <Head>
@@ -28,141 +29,8 @@ import Divider from '../components/divider'
               <Divider />
               <About />
         </div> 
-        <div className="footer">
-            <p className="copyDate">© 2020 15below All Rights Reserved</p>
-            <p className="compReg">Company Registered in England No. 3945289</p>
-        </div>
-    
-      <style jsx>{`
-         
-         :global(body) {
-          margin: 0;
-          font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-        }
-    
-        .footer {
-          height: 100px;
-          width: 100%;
-          background-color: #2F3C46;
-          color: #ffffff;
-          font-size:12px;
-        }
-    
-        .signUpsec {
-          margin: auto;
-          padding: 35px;
-        }
-    
-        .copyDate {
-          width: 40%;
-          float: left;
-          padding: 25px;
-        }
-    
-        .compReg {
-          width: 40%;
-          float: right;
-          padding: 25px;
-        }
-        .mainBody {
-          margin: 0 auto;
-        }
-    
-        .nav {
-          colour: red;
-        }
-    
-        .title {
-          margin: auto;
-          padding: 25px;
-          color: #ffffff;
-      }
-    
-      .hero {
-          width: 100%;
-          color: #fff;
-          height: 100%;
-          background: url('/iStock_000028193904XLarge33.jpg') no-repeat;
-      }
-    
-      .heroCta {
-        margin: auto;
-        background-color: #e00034;
-        width: 35%;
-      }
-    
-      .heroCta p {
-        text-align: center;
-        padding: 15px;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #fff;
-      }
-    
-         signUpText {
-          font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-          font-weight: 400;
-          margin: auto;
-         }
-         
-         .button {
-          background: red;
-          border-radius: 8px;
-          color: white;
-        }
-    
-          .signup {
-            padding: 18px 30px 24px;
-          }
-          
-          h1 {
-            font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-            font-weight: 500 !important;
-          }
-          
         
-          .title {
-            font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-            margin: 0;
-            width: 100%;
-            padding-top: 80px;
-            line-height: 1.15;
-            font-size: 48px;
-          }
-          .title,
-          .description {
-            text-align: center;
-          }
-          .row {
-            max-width: 880px;
-            margin: 80px auto 40px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-          }
-          .card {
-            padding: 18px 18px 24px;
-            width: 220px;
-            text-align: left;
-            text-decoration: none;
-            color: #434343;
-            border: 1px solid #9b9b9b;
-          }
-          .card:hover {
-            border-color: #067df7;
-          }
-          .card h3 {
-            margin: 0;
-            color: #067df7;
-            font-size: 18px;
-          }
-          .card p {
-            margin: 0;
-            padding: 12px 0 0;
-            font-size: 13px;
-            color: #333;
-          }
-        `}</style>
+        <Footer />
         
       </div>
     )
