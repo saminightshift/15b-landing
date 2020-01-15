@@ -11,11 +11,6 @@ const Nav = () => (
         </Link>
       </li>
       <li>
-        <Link href="/agenda">
-          <a>Agenda</a>
-        </Link>
-      </li>
-      <li>
         <Link href="/attend">
           <a>Why Attend?</a>
         </Link>
@@ -23,11 +18,6 @@ const Nav = () => (
       <li>
         <Link href="/testimonials">
           <a>Testimonials</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/location">
-          <a>Location</a>
         </Link>
       </li>
     </ul>

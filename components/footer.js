@@ -13,6 +13,7 @@ const Footer = () => (
     background-color: #2F3C46;
     color: #ffffff;
     font-size:12px;
+    position: absolute;
   }
 
   .copyDate {

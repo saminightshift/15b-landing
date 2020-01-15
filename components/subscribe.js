@@ -58,6 +58,14 @@ class Subscribe extends Component {
             type: 'text',
             required: true,
             className: 'field'
+        },
+
+        {
+          name: 'MMERGE7',
+          placeholder: 'Would you be interested in contributing to customer sessions? (Y/N)',
+          type: 'check',
+          required: false,
+          className: 'field'
         }
 
         ]}

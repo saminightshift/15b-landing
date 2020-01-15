@@ -6,6 +6,7 @@ import Subscribe from '../components/subscribe'
 import About from '../components/about'
 import Divider from '../components/divider'
 import Footer from '../components/footer'
+import Location from '../components/location'
 
 const Home = () => (
       <div>
@@ -30,6 +31,7 @@ const Home = () => (
               </div>
               <Divider />
               <About />
+              <Location />
         </div> 
         
         <Footer />

@@ -3,6 +3,7 @@ import React from 'react'
 
 const About = () => (
 <about>
+  <br/>
   <div className="Cta">
     <h1 className="Heading">About</h1>
   </div>
@@ -81,8 +82,9 @@ const About = () => (
 
      .Cta {
       background-color: #e00034;
-      width: 150px;
+      width: 250px;
       color: #ffffff;
+      padding: 1px;
      }
 
      .Heading {
