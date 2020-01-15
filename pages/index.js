@@ -9,10 +9,10 @@ import Footer from '../components/footer'
 
 const Home = () => (
       <div>
-        <Head>
-          <title>Home</title>
+      <Head>
+          <title>15below Customer Conference 2020</title>
           <link rel="icon" href="/favicon.ico" />
-        </Head>
+      </Head>
         <Nav />
         <div className="hero">
             <h1 className="title">15below Customer Conference 2020</h1>

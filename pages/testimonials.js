@@ -2,9 +2,14 @@ import React from 'react'
 import './style.css'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
+import Head from 'next/head'
 
 const Testimonials = () => (
     <testimonials>
+    <Head>
+        <title>15below Customer Conference 2020</title>
+        <link rel="icon" href="/favicon.ico" />
+    </Head>
         <Nav />
         <div className="hero">
             <h1 className="title">15below Customer Conference 2020</h1>

@@ -110,8 +110,8 @@ input text {
       text-align: center;
     }
     .row {
-      max-width: 880px;
-      margin: 80px auto 40px;
+      width: 100%;
+      margin: auto;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -141,9 +141,16 @@ input text {
 
     /* MEDIA QUERIES */
 
-    @media (max-width: 600px) {
+    @media (min-width: 600px) {
       :global(body) {
         width: 100%;
         font-size: 1.25em; line-height: 1.5em; letter-spacing: 0.2px;
       }
+
+      .heroCta {
+        margin: auto;
+        background-color: #e00034;
+        width: 35%;
+      }
+
     }

@@ -2,11 +2,15 @@ import React from 'react'
 import Nav from '../components/nav'
 import './style.css';
 import Footer from '../components/footer'
+import Head from 'next/head'
 
 const Attend = () => (
 
     <attend>
-
+      <Head>
+          <title>15below Customer Conference 2020</title>
+          <link rel="icon" href="/favicon.ico" />
+      </Head>
     <Nav />
         <div className="hero">
             <h1 className="title">15below Customer Conference 2020</h1>
@@ -18,11 +22,12 @@ const Attend = () => (
 
 
         <div className="mainBody">
-        <div className="Cta">
+        <div className="CtaAttend">
             <h1 className="Heading">Why Attend?</h1>
         </div>
 
-
+        <div className="row">
+          <div className="textCol">
           <h4><span className="step">1</span> Get the most from your notifications platform</h4>
           <p>Learn how to get the most out of the notifications platform, and leave with actionable insights to enhance the way you communicate with your passengers.</p>
 
@@ -43,6 +48,11 @@ const Attend = () => (
 
           <h4><span className="step">7</span> Celebrate with us</h4>
           <p>We’re turning 20 and would love for you to be here to celebrate the occasion with us! Join us for food, drink, awards, and entertainment.</p>
+          </div>
+          <div className="col2">
+          <iframe src="https://player.vimeo.com/video/384968267" width="100%" height="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+        </div>
         </div>
 
         <Footer />
@@ -78,16 +88,49 @@ const Attend = () => (
               padding: 5px 35px 35px 0;
             }
 
-            .Cta {
+            .CtaAttend {
               background-color: #e00034;
-              width: 150px;
+              width: 250px;
               color: #ffffff;
             }
 
             .Heading {
               padding-left: 25px;
+              width: 200px;
             }
-                    
+
+            .verticalDiv {
+              width: 2%;
+              background-color: #fff;
+              border-left: dotted 2px #d6dada;
+              height: 54rem !important;
+              overflow: hidden;
+              position: relative;
+            }
+
+            .textCol {
+              width: 50%;
+            }
+        
+            .col2 {
+              width: 50%;
+            }
+
+            .vp-center {
+              width: 100%;
+              padding: 0px !important;
+            }
+
+            @media (min-width: 600px){
+              textCol {
+                width: 100%;
+              }
+
+              col2 {
+                width: 100%;
+              }
+
+            }
 
         `}</style>
 
