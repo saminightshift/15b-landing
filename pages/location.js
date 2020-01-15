@@ -26,31 +26,28 @@ const Location = () => (
         </div>
 
         <div className="row">
-          <div className="textCol">
-          <h4><span className="step">1</span> Get the most from your notifications platform</h4>
-          <p>Learn how to get the most out of the notifications platform, and leave with actionable insights to enhance the way you communicate with your passengers.</p>
-
-          <h4><span className="step">2</span> Network with peers from the world's leading travel companies</h4>
-          <p>Meet like-minded individuals who are as passionate as you are about making passenger experience the best it can be.</p>
-
-          <h4><span className="step">3</span> Understand and influence the 15below product roadmap</h4>
-          <p>We want to hear the challenges you face day-to-day – and most importantly – how we can help.</p>
-
-          <h4><span className="step">4</span> Take part in an immersive, fully interactive format</h4>
-          <p>No death-by-Powerpoint here! Enjoy three value-packed days full of deep-dive breakout sessions, panels, live case studies, interactive workshops, and more.</p>
-
-          <h4><span className="step">5</span> Visit our offices and meet the team</h4>
-          <p>Meet the whole 15below team in our new home, work from our Brighton offices or join our optional ‘how to’ sessions.</p>
-
-          <h4><span className="step">6</span> Take in the sights and sounds of Brighton</h4>
-          <p>Brighton will be home to two fantastic arts festivals at the same time as the conference, so why not extend your stay and find out why Brighton has been named “London by the sea”.</p>
-
-          <h4><span className="step">7</span> Celebrate with us</h4>
-          <p>We’re turning 20 and would love for you to be here to celebrate the occasion with us! Join us for food, drink, awards, and entertainment.</p>
-          </div>
-          <div className="col2">
-          <iframe src="https://player.vimeo.com/video/384968267" width="100%" height="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-          </div>
+            <div className="six columns venue-block">
+                <h4>Days 1 &amp; 2:  22nd - 23rd May 2018</h4>
+                
+                
+                <h3>British Airways i360</h3>
+                <p>Lower Kings Road<br />BN1 2LN</p>
+                <img src="images/venue-i360-pic-crop2.jpg" className="venue-pic" alt="British Airways i360 photo" />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.5151108784344!2d-0.15223458107520135!3d50.82162198050592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4875851244cba2db%3A0x8739662617310e4d!2sBritish+Airways+i360!5e0!3m2!1sen!2suk!4v1521717883184" width="100%" height="300" frameborder="0"  allowfullscreen></iframe>
+                
+            </div>
+            
+            <div className="divider hide-on-desktop"></div>
+            
+            <div className="six columns venue-block">
+                <h4>Day 3: 24th May 2018</h4>
+                
+                <h3>15below Brighton Office</h3>
+                <p>Lyndean House, 43-46 Queens Road<br />BN1 3XB</p>
+                <img src="images/office-pic-crop2.jpg" className="venue-pic" alt="15below office photo" />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.2334160848873!2d-0.14439978408454449!3d50.82684026805305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487585748e8e9fdb%3A0xd06aa1eae69ac961!2s15below!5e0!3m2!1sen!2suk!4v1521718159634" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+            </div>
+            
         </div>
         </div>
 
@@ -118,6 +115,7 @@ span.step {
   padding: 0px !important;
 }
 
+
 @media (min-width: 600px){
   textCol {
     width: 100%;
@@ -126,6 +124,11 @@ span.step {
   col2 {
     width: 100%;
   }
+
+  .venue-block { margin-bottom: 20px; } 
+  .venue-block h3 { margin-bottom: 10px !important; }
+  .venue-block h4 { margin-bottom: 10px !important; } 
+  .venue-block p { margin-bottom: 10px !important; } 
 
 }
 
