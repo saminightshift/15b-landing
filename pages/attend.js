@@ -3,6 +3,7 @@ import Nav from '../components/nav'
 import './style.css';
 import Footer from '../components/footer'
 import Head from 'next/head'
+import Divider from '../components/divider';
 
 const Attend = () => (
 
@@ -22,6 +23,7 @@ const Attend = () => (
 
 
         <div className="mainBody">
+          <br />
         <div className="CtaAttend">
             <h1 className="Heading">Why Attend?</h1>
         </div>
@@ -53,13 +55,35 @@ const Attend = () => (
           <iframe src="https://player.vimeo.com/video/384968267" width="100%" height="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
         </div>
+
+          <Divider />
+
+        <div className="row2">
+          <h3>Don't forget...</h3>
+
+          <h4>For the first time ever, the Customer Conference will be a 3-day event. Day 3 will be hosted in the new 15below offices where you can:
+          </h4>
+
+          <h4><span className="step">1</span> Extend your knowledge with ‘how-to’ sessions</h4>
+          <p>These drop-in sessions – delivered to small groups and run throughout the day – are designed to take your knowledge and technical expertise to a new level – learn directly from the people who handle these tasks every day.</p>
+
+          <h4><span className="step">2</span> Catch up with your Account Manager</h4>
+          <p>Day three is the perfect time to discuss current or future plans on a one-to-one basis - but space is limited!  <a href="mailto:AM@15below.com" className="mailLink">Book Now</a> with your Account Manager to avoid disappointment.</p>
+
+          <h4><span className="step">3</span> Meet the tech wizards behind 15below</h4>
+          <p>This is your chance to meet the team that works hard every day to build, improve, and manage your notifications platform behind the scenes. Got a question for us? This is your opportunity to ask face-to-face!</p>
+
+        </div>
+
+
         </div>
 
         <Footer />
 
         <style jsx>{`
 
-            h4 {
+
+            h3, h4 {
               font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
               font-weight: 600;
               padding-left: 30px;
@@ -68,6 +92,10 @@ const Attend = () => (
            .mainBody p {
               color: #959a9a !important;
               padding-left: 30px;
+            }
+
+            .mailLink {
+              color: #e00034;
             }
 
             span.step {
@@ -90,13 +118,14 @@ const Attend = () => (
 
             .CtaAttend {
               background-color: #e00034;
-              width: 250px;
+              width: 280px;
               color: #ffffff;
+              padding: 1px;
             }
 
             .Heading {
               padding-left: 25px;
-              width: 200px;
+              width: 250px;
             }
 
             .verticalDiv {
@@ -121,16 +150,6 @@ const Attend = () => (
               padding: 0px !important;
             }
 
-            @media (min-width: 600px){
-              textCol {
-                width: 100%;
-              }
-
-              col2 {
-                width: 100%;
-              }
-
-            }
 
         `}</style>
 

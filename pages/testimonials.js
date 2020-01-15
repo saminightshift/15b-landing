@@ -18,6 +18,7 @@ const Testimonials = () => (
             </div>
             <br />
         </div>
+
         <div className="main">
             <h3>Don't just take our word for it...</h3>
 
@@ -57,6 +58,12 @@ const Testimonials = () => (
         </div>
 
     <style jsx>{`
+
+        .main {
+            padding: 30px;
+            margin: auto;
+        }
+
         .row {
             width: 100%;
         }

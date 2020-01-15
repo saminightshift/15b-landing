@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './nav'
 import Footer from './footer'
 import Head from 'next/head'
+import Divider from './divider'
 
 const Location = () => (
     <location>
@@ -13,9 +14,6 @@ const Location = () => (
     <div className="mainBody">
         <div className="row">
           <div className="venueBlock">
-              <h3>Days 1 &amp; 2:  22nd - 23rd May 2018</h3>
-
-
               <h4>British Airways i360</h4>
               <p>Lower Kings Road<br />BN1 2LN</p>
               <img src="./venue-i360-pic-crop2.jpg" width="100%" className="venuePic" alt="British Airways i360 photo" />
@@ -25,9 +23,7 @@ const Location = () => (
 
             <div className="divide">&nbsp;</div>
 
-            <div className="venueBlock2">
-              <h3>Day 3: 24th May 2018</h3>
-              
+            <div className="venueBlock2">              
               <h4>15below Brighton Office</h4>
               <p>Lyndean House, 43-46 Queens Road<br />BN1 3XB</p>
               <img src="./office-pic-crop2.jpg" width="100%" className="venuePic" alt="15below office photo" />
@@ -35,6 +31,46 @@ const Location = () => (
             </div>
 
           </div>
+
+          <Divider />
+
+          <div className="row2">
+            <h3>Accommodation</h3>
+            <h4>MyHotel</h4>
+            <p>Standard Double per night £95.00
+            <br/>Superior Double per night £105.00
+            <br/><i>(room-only rates, incl. WiFi and VAT)</i></p>
+           
+            <div className="bookCard">
+              <h4>How to book:</h4>
+              <p>Call My Hotel reservations department and quote code '15BE110520' to secure the special rates:<br/>
+              <br/>+44 (0)1273 900 380 - (ext.: 380) – Ashleigh Cosham <br/>or email - <a href="mailto:ashleighcosham@myhotels.com">ashleighcosham@myhotels.com</a></p>
+            </div>
+           
+        
+          <Divider />
+
+            <h4>Queens Hotel</h4>
+            <p>Standard Double (single occupancy) per night £95.00
+            <br/>Standard Double (double occupancy) per night £105.00
+
+            <br/><i>(both incl. buffet breakfast, access to a small leisure centre, WiFi and VAT)</i></p>
+
+            <p>Standard Double room per night £90.00
+
+            <br/><i>(room-only rate, incl. leisure centre, WIFI and VAT)</i></p>
+
+            <p>Seaview supplement is £10 per room per night</p>
+
+            <div className="bookCard">
+              <h4>How to book:</h4>
+              <p>+44 (0) 1273 221605 – Direct Line – Tracey Rooke <br/>
++44 (0) 1273 221603 – Direct Line – John Hirons <br/>
+or email – <a href="mailto:info@queenshotelbrighton.com">info@queenshotelbrighton.com</a></p>
+            </div>
+         
+          </div>
+
         </div>
       </div>
 
@@ -43,6 +79,11 @@ const Location = () => (
 h4 {
   font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 600;
+}
+
+.bookCard {
+  background-color: #ffffff;
+  padding: 25px;
 }
 
 h5 {
@@ -97,43 +138,16 @@ h5 {
   width: 45%;
   float: left;
   margin: auto;
-  align-content: left;
+  align-content: top;
 }
 
 .venueBlock2 {
   width: 45%;
   float: right;
   margin: auto;
-  align-content: right;
+  align-content: top;
 }
 
-
-@media (max-width: 600px){
-  textCol {
-    width: 100%;
-  }
-
-  col2 {
-    width: 100%;
-  }
-
-  .divide {
-    display: none;
-  }
-
-  .venueBlock {
-    width: 100%;
-    margin: auto;
-    position: absolute;
-  }
-
-  .venueBlock2 {
-    width: 100%;
-    margin: auto;
-    position: absolute;
-  }
-
-}
 
 `}</style>
     </location>
