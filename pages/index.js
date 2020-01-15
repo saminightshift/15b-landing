@@ -6,7 +6,8 @@ import Subscribe from '../components/subscribe'
 import About from '../components/about'
 import Divider from '../components/divider'
 import Footer from '../components/footer'
-    const Home = () => (
+
+const Home = () => (
       <div>
         <Head>
           <title>Home</title>
@@ -22,9 +23,10 @@ import Footer from '../components/footer'
         </div>
         <div className="mainBody">
               <div className="signUpsec">
-                <h3 className="signUpText">Please fill in the form below to register your interest.</h3>
-    
-                <Subscribe className="formsub" />
+                <div className="formContainer">
+                  <h3 className="signUpText">Please fill in the form below to register your interest.</h3>
+                  <Subscribe />
+                </div>
               </div>
               <Divider />
               <About />

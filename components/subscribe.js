@@ -6,7 +6,7 @@ class Subscribe extends Component {
   render() {
     return (
       
-        <Mailchimp className="formsub"
+        <Mailchimp
         action='https://15below.us4.list-manage.com/subscribe/post?u=99107eeea50cd032d861c158f&amp;id=6b874089ea'
         fields={[
           {
@@ -70,8 +70,9 @@ messages = {
       error: "An unexpected internal error has occurred.",
       empty: "You must write an e-mail.",
       duplicate: "Too many subscribe attempts for this email address",
-      button: "Subscribe!"
+      button: "Register"
     }
+    
   }
   // Add a personalized class
   className='form_sub'

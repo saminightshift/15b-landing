@@ -35,7 +35,7 @@ const About = () => (
   <div className="verticalDiv">&nbsp;</div>
   
   <div className="col2">
-    <img src="./video.jpg"></img>
+    <iframe src="https://player.vimeo.com/video/384968267" width="100%" height="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
 
   </div>
@@ -80,8 +80,7 @@ const About = () => (
 
     .aboutBody {
       width: 70%;
-      float: left;
-      padding: 5px 35px 35px 0;
+      padding-right: 30px;
     }
 
     .verticalDiv {
@@ -99,6 +98,10 @@ const About = () => (
 
     col2 img {
       margin: auto;
+    }
+
+    .row {
+      width: 100%;
     }
 
     .row:after {

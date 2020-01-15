@@ -8,12 +8,14 @@
     padding: 35px;
   }
 
-  .mainBody {
-    margin: 0 auto;
+  .formContainer {
+    background-color: #ecf0f1;
+    padding:50px;
+    margin: auto;
   }
 
-  .nav {
-    colour: red;
+  .mainBody {
+    margin: 0 auto;
   }
 
   .CtaDate {
@@ -30,11 +32,32 @@
     width: 100%;
     color: #fff;
     height: 100%;
-    background: url('/iStock_000028193904XLarge33.jpg') no-repeat 1%;
+    background: url('/CC2020-banner.png') no-repeat 40%;
+    margin: auto;
   }
 
-#button {
+button {
+  width: 100%;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
   background-color: #e00034; 
+  margin: 10px 0 10px 0;  
+  height: auto;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #c3c8c8;
+  height: 30px;
+  font-size: 16px;
+  margin: 10px 0 10px 0;
+}
+
+input text {
+  padding: 10px;
 }
 
 .heroCta {
@@ -51,10 +74,11 @@
   color: #fff;
 }
 
-   signUpText {
+   .signUpText {
     font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     margin: auto;
+    padding-bottom: 40px;
    }
    
    .button {
@@ -113,4 +137,13 @@
       padding: 12px 0 0;
       font-size: 13px;
       color: #333;
+    }
+
+    /* MEDIA QUERIES */
+
+    @media (max-width: 600px) {
+      :global(body) {
+        width: 100%;
+        font-size: 1.25em; line-height: 1.5em; letter-spacing: 0.2px;
+      }
     }
