@@ -144,66 +144,39 @@ If you have any gaps between “how-to” sessions and 1-2-1 meetings, feel free
 Details of exact sessions running at each time will be available nearer to the event so that you can plan your day. </p>
 
         <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>9:00 - 9:30</h4></div>
-            <div className="calendarItem"><h4>Registration &amp; refreshments</h4></div>
+            <div className="timeBlock"><h4>9:00 - 10:00</h4></div>
+            <div className="calendarItem"><h4>Welcome, coffee and pastries</h4></div>
         </div>
         <div className="scheduleContainer2">
-            <div className="timeBlock"><h4>9:00 - 9:30</h4></div>
-            <div className="calendarItem"><h4>Welcome &amp; introduction</h4></div>
+            <div className="timeBlock"><h4>10:00 - 14:30</h4></div>
+            <div className="calendarItem"><h4>“How-to" sessions</h4><p>These 20-minute sessions will be taking place at set intervals throughout the day, feel free to drop in at a time that suits you.</p></div>
         </div>
         <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>10:00 - 10:45</h4></div>
-            <div className="calendarItem"><h4>Keynote presentation</h4><p>15below CEO Nicholas Key takes a look at how communications technology has changed over the last 20 years and looks ahead at what the next 20 years are likely to hold for our industry.</p></div>
+            <div className="timeBlock"><h4>16:00</h4></div>
+            <div className="calendarItem"><h4>Close</h4></div>
         </div>
-        <div className="scheduleContainer2">
-            <div className="timeBlock"><h4>10:45 - 11:15</h4></div>
-            <div className="calendarItem"><h4>Case Study</h4><p>Learn from the experts with a live case study and Q&A session.</p></div>
-        </div>
-        <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>11:15 - 11:35</h4></div>
-            <div className="calendarItem"><h4>Break</h4></div>
-        </div>
-        <div className="scheduleContainer2">
-            <div className="timeBlock"><h4>11:35 - 12:35</h4></div>
-            <div className="calendarItem"><h4>Airline Panel: The Evolution of Customer Experience</h4><p>A discussion with multiple airlines from around the world, hosted by 15below Heads of Account Management Gemma Chalk (EMEA &amp; Americas) and Alex Thornton (APAC).</p></div>
-        </div>
-        <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>12:35 - 13:35</h4></div>
-            <div className="calendarItem"><h4>Lunch</h4></div>
-        </div>
-        <div className="scheduleContainer2">
-            <div className="timeBlock"><h4>13:35 - 14:05</h4></div>
-            <div className="calendarItem"><h4>Keynote – The Autonomous Customer 2020</h4><p>Dr Nicola Millard, Principal Innovation Partner, Enterprise and Chief Innovation Officer at BT discusses the results of her extensive research, what the future of customer excellence looks like, and how travel companies can innovate to meet ever-rising customer expectations.</p></div>
-        </div>
-        <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>14:05 - 15:00</h4></div>
-            <div className="calendarItem"><h4>Interactive workshop</h4><p>An interactive session run by Dr Nicola Millard to help you put the results of her research into context and update your passenger communications strategy.</p></div>
-        </div>
-        <div className="scheduleContainer2">
-            <div className="timeBlock"><h4>15:00 - 15:20</h4></div>
-            <div className="calendarItem"><h4>Break</h4></div>
-        </div>
-        <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>15:20 - 15:50</h4></div>
-            <div className="calendarItem"><h4>Introducing our Product Team</h4><p>An introduction to our Product Team, the 15below Research Lab, and how we work with our customers as Development Partners.</p></div>
-        </div>
-        <div className="scheduleContainer2">
-            <div className="timeBlock"><h4>15:50 - 16:20</h4></div>
-            <div className="calendarItem"><h4>Channels – How many of your customers are you keeping informed?</h4><p>15below Product Manager and in-house channels expert, Craig Lawes presents the results of his extensive research, revealing which channels you need to factor into your communications strategy to ensure you’re keeping ALL your customers informed and empowered.</p></div>
-        </div>
-        <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>16:20 - 16:50</h4></div>
-            <div className="calendarItem"><h4>Product Innovation (part 1)</h4><p>An overview of our latest product developments and what it means for you</p></div>
-        </div>
-        <div className="scheduleContainer2">
-            <div className="timeBlock"><h4>16:50 - 17:00</h4></div>
-            <div className="calendarItem"><h4>Wrap up Day 1</h4></div>
+        <div className="20Min">
+        <h4>20-Minute Knowledge Sessions</h4><p>Topics will be confirmed nearer the time. Keep an eye out for updates.</p>
         </div>
 
-        <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>17:00</h4></div>
-            <div className="calendarItem"><h4>Evening entertainment, including flight on the British Airways i360</h4></div>
+<br/>
+
+        <Divider />
+
+
+
+        <br/>
+
+        <div className="containerBox">
+            <span>Anything particular you’d like use to cover? Let us know <a href="mailto:CC2020@15below.com">here</a></span>
+        </div><br/>
+
+        <Divider />
+        <br/>
+        <div className="20Min">
+        <h4>One-to-One Meetings</h4><p>In between the ‘How-to’ sessions, you’ll get the chance to attend drop-ins with our QA, Support & Product Teams, and meet with your Account Manager. If you would like to arrange a 1-2-1 meeting with anyone at 15below, please book this in with your Account Manager by emailing <a href="mailto:AM@15below.com">AM@15below.com</a></p>
         </div>
+        
         </div>
 
         </div>
@@ -213,6 +186,28 @@ Details of exact sessions running at each time will be available nearer to the e
         .calendarBody {
             margin: auto;
             padding: 35px;
+        }
+
+        a {
+            color: #e00034;
+        }
+
+        .20Min {
+            margin: auto;
+            padding: 35px;
+        }
+
+        .containerBox {
+            width: 60%;
+            color: #ffffff;
+            background-color: #e00034;
+            padding: 40px;
+            margin: auto;
+        }
+
+        .containerBox span a {
+            color: #ffffff;
+            font-weight: bold;
         }
 
         .scheduleContainer1 {
