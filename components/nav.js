@@ -11,6 +11,11 @@ const Nav = () => (
         </Link>
       </li>
       <li>
+        <Link href="/agenda">
+          <a>Agenda</a>
+        </Link>
+      </li>
+      <li>
         <Link href="/attend">
           <a>Why Attend?</a>
         </Link>
