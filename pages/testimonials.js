@@ -24,7 +24,7 @@ const Testimonials = () => (
 
             <div className="row">
                 <div className="logoCol">
-                    <img src="./flybe.png" width="60%"></img>
+                    <img src="http://15below.com/events/cc2020/FlyBe.png" width="60%"></img>
                 </div>
                 <div className="textCol">
                     <p>"As my first conference, the 15below experience has set a very bar for anyone else to compete.
@@ -37,7 +37,7 @@ const Testimonials = () => (
 
             <div className="row">
                 <div className="logoCol">
-                    <img src="./tui.png" width="60%"></img>
+                    <img src="http://15below.com/events/cc2020/Tui.png" width="60%"></img>
                 </div>
                 <div className="textCol">
                     <p>"Fantastic event. Very informative. I enjoyed the industry insights and opportunities. Meeting your other customers
@@ -48,7 +48,7 @@ const Testimonials = () => (
 
             <div className="row">
                 <div className="logoCol">
-                    <img src="./swiss.png" width="60%"></img>
+                    <img src="http://15below.com/events/cc2020/Swiss.png" width="60%"></img>
                 </div>
                 <div className="textCol">
                     <p>"It was one of the best conferences I've attended! Relevant sessions, excellent organisation. Perfect!"
