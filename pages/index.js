@@ -29,6 +29,7 @@ const Home = () => (
                   <Subscribe />
                 </div>
               </div>
+              
               <Divider />
               <About />
               <Location />

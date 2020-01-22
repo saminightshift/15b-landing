@@ -32,6 +32,15 @@ const Nav = () => (
       nav {
         text-align: center;
         border-bottom: 2px solid #e00034;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: #ffffff;
+      }
+
+      ul {
+        margin: auto 0;
+        text-align: center;
       }
 
       .navLogo {
