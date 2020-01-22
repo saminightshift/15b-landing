@@ -142,12 +142,12 @@ input::placeholder {
 
     /* MEDIA QUERIES */
 
-    @media (min-width: 600px) {
-      :global(body) {
+    @media (max-width: 380px) {
+      body {
         width: 100%;
         font-size: 1.25em; line-height: 1.5em; letter-spacing: 0.2px;
       }
-
+      
       .heroCta {
         margin: auto;
         background-color: #e00034;

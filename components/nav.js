@@ -35,7 +35,7 @@ const Nav = () => (
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        background-color: #ffffff;
+        background-color: rgba(255,255,255,0.9);
       }
 
       ul {
