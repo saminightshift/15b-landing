@@ -23,15 +23,20 @@ const Home = () => (
             <br />
         </div>
         <div className="mainBody">
-              <div className="signUpsec">
-                <div className="formContainer">
-                  <h3 className="signUpText">Please fill in the form below to register your interest.</h3>
-                  <Subscribe />
-                </div>
-              </div>
-              
-              <Divider />
+          <div className="row">
+            <div className="column1">
               <About />
+            </div>
+            <div className="column2">
+              <div className="signUpsec">
+                      <div className="formContainer">
+                        <h4 className="signUpText">Please fill in the form below to register your interest.</h4>
+                        <Subscribe />
+                      </div>
+              </div>
+            </div>
+          </div>
+              <Divider />
               <Location />
         </div> 
         

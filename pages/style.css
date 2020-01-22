@@ -1,7 +1,18 @@
-:global(body) {
+body {
     margin: 0;
     font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   }
+
+ p {
+  font-size: 14px;
+  line-height: 1.5;
+ } 
+
+ h4 {
+   font-size: 18px !important;
+   line-height: 1.2;
+ }
+
 
   .signUpsec {
     margin: auto;
@@ -16,6 +27,14 @@
 
   .mainBody {
     margin: 0 auto;
+  }
+
+  .column1 {
+    width: 50%;
+  }
+
+  .column2 {
+    width: 50%;
   }
 
   .CtaDate {
@@ -55,10 +74,12 @@ input {
   height: 30px;
   font-size: 16px;
   margin: 10px 0 10px 0;
+
 }
 
-input text {
-  padding: 10px;
+input::placeholder {
+  padding-left: 10px;
+  font-size: 12px;
 }
 
 .heroCta {
