@@ -10,13 +10,30 @@ const Calendar = () => (
         </div>
 
         <div className="scheduleContainer1">
-            <div className="timeBlock"><h4>9:00 - 9:30</h4></div>
-            <div className="calendarItem"><h4>Registration &amp; refreshments</h4></div>
+            <div className="timeBlock">
+                <h5>9:00 - 9:30</h5>
+                <h5>9:30 - 10:00</h5>
+                <h5>10:00 - 10:45</h5>
+                <h5>10:45 - 11:15</h5>
+                <h5>11:15 - 11:35</h5>
+                <h5>11:35 - 12:35</h5>
+                <h5>12:35 - 13:35</h5>
+                <h5>13:35 - 14:05</h5>
+                <h5>14:05 - 15:00</h5>
+                <h5>15:00 - 15:20</h5>
+                <h5>15:20 - 15:50</h5>
+                <h5>15:50 - 16:20</h5>
+                <h5>16:20 - 16:50</h5>
+                <h5>16:50 - 17:00</h5>
+                <h5>17:00</h5>
+            </div>
+            <div className="calendarItem">
+                <h5>Registration &amp; refreshments</h5>
+                <h5>Welcome &amp; introduction</h5>
+                <h5>Keynote presentation</h5><p>15below CEO Nicholas Key takes a look at how communications technology has changed over the last 20 years and looks ahead at what the next 20 years are likely to hold for our industry.</p>
+            </div>
         </div>
-        <div className="scheduleContainer2">
-            <div className="timeBlock"><h4>9:00 - 9:30</h4></div>
-            <div className="calendarItem"><h4>Welcome &amp; introduction</h4></div>
-        </div>
+        
         <div className="scheduleContainer1">
             <div className="timeBlock"><h4>10:00 - 10:45</h4></div>
             <div className="calendarItem"><h4>Keynote presentation</h4><p>15below CEO Nicholas Key takes a look at how communications technology has changed over the last 20 years and looks ahead at what the next 20 years are likely to hold for our industry.</p></div>
@@ -231,7 +248,11 @@ Details of exact sessions running at each time will be available nearer to the e
 
         .timeBlock {
             width: 30%;
+            text-align: justify;
+            text-justify: outer-word;
         }
+
+
 
         .calendarItem {
             width: 70%;

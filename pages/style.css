@@ -117,6 +117,11 @@ input::placeholder {
       font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
       font-weight: 500 !important;
     }
+
+    h5 {
+      font-size: 15px;
+      line-height: 1.4;
+    }
     
   
     .title {
@@ -147,7 +152,7 @@ input::placeholder {
         width: 100%;
         font-size: 1.25em; line-height: 1.5em; letter-spacing: 0.2px;
       }
-      
+
       .heroCta {
         margin: auto;
         background-color: #e00034;
