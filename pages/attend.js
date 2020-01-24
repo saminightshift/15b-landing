@@ -4,6 +4,7 @@ import './style.css';
 import Footer from '../components/footer'
 import Head from 'next/head'
 import Divider from '../components/divider';
+import Player from '../components/video'
 
 const Attend = () => (
 
@@ -12,18 +13,18 @@ const Attend = () => (
           <title>15below Customer Conference 2020</title>
           <link rel="icon" href="/favicon.ico" />
       </Head>
-    <Nav />
+      <Nav />
         <div className="hero">
+          <div className="heroOverlay">
             <h1 className="title">15below Customer Conference 2020</h1>
-            <div className="heroCta">
-              <p>12 - 14 May 2020</p>
-            </div>
-            <br />
+              <div className="heroCta">
+                <p>12 - 14 May 2020</p>
+              </div>
+          </div>
         </div>
 
 
         <div className="mainBody">
-          <br />
         <div className="CtaAttend">
             <h1 className="Heading">Why Attend?</h1>
         </div>
@@ -43,16 +44,59 @@ const Attend = () => (
           <p>No death-by-Powerpoint here! Enjoy three value-packed days full of deep-dive breakout sessions, panels, live case studies, interactive workshops, and more.</p>
 
           <h4><span className="step">5</span> Visit our offices and meet the team</h4>
-          <p>Meet the whole 15below team in our new home, work from our Brighton offices or join our optional ‘how to’ sessions.</p>
+          <p>Meet the whole 15below team in our vibrant office, work from our collaborative spaces, or join our optional ‘how-to’ sessions.</p>
 
           <h4><span className="step">6</span> Take in the sights and sounds of Brighton</h4>
-          <p>Brighton will be home to two fantastic arts festivals at the same time as the conference, so why not extend your stay and find out why Brighton has been named “London by the sea”.</p>
+          <p>Brighton will be home to two fantastic arts festivals at the same time as the conference, so why not extend your stay and discover why Brighton is known as ‘London by the sea’.</p>
 
           <h4><span className="step">7</span> Celebrate with us</h4>
           <p>We’re turning 20 and would love for you to be here to celebrate the occasion with us! Join us for food, drink, awards, and entertainment.</p>
           </div>
           <div className="col2">
-          <iframe src="https://player.vimeo.com/video/384968267" width="100%" height="auto" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <div className="col2content">
+
+<Player />
+
+</div> <br/>
+            <div className="col2content">
+            <h3>Don't just take our word for it...</h3>
+
+            <div className="row">
+                <div className="logoCol">
+                    <img src="http://15below.com/events/cc2020/FlyBe.png" width="100px"></img>
+                </div>
+                <div className="textCol">
+                    <p>"As my first conference, the 15below experience has set a very high bar for anyone else to compete.
+                        The 15below 'family', both customers and employees, really helped to introduce me to great products
+                        and cemented that we have made a great move to join 15below. I would highly recommend attending a 15below
+                        conference. It's not only valuable but great fun!"
+                    </p>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="logoCol">
+                    <img src="http://15below.com/events/cc2020/Tui.png" width="100px"></img>
+                </div>
+                <div className="textCol">
+                    <p>"Fantastic event. Very informative. I enjoyed the industry insights and opportunities. Meeting your other customers
+                        is really helpful to understand other use cases. I look forward to the next conference!"
+                    </p>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="logoCol">
+                    <img src="http://15below.com/events/cc2020/Swiss.png" width="100px"></img>
+                </div>
+                <div className="textCol">
+                    <p>"It was one of the best conferences I've attended! Relevant sessions, excellent organisation. Perfect!"
+                    </p>
+                </div>
+            </div>
+              
+            </div>
+
           </div>
         </div>
 
@@ -61,14 +105,13 @@ const Attend = () => (
         <div className="row2">
           <h3>Don't forget...</h3>
 
-          <h4>For the first time ever, the Customer Conference will be a 3-day event. Day 3 will be hosted in the new 15below offices where you can:
-          </h4>
+          <h4>The Customer Conference will be a 3-day event and the final day will be hosted in the 15below offices where you can:</h4>
 
           <h4><span className="step">1</span> Extend your knowledge with ‘how-to’ sessions</h4>
-          <p>These drop-in sessions – delivered to small groups and run throughout the day – are designed to take your knowledge and technical expertise to a new level – learn directly from the people who handle these tasks every day.</p>
+          <p>These drop-in sessions – delivered to small groups and run throughout the day – are designed to take your knowledge and technical expertise to a new level. Learn directly from the people who handle these tasks every day.</p>
 
           <h4><span className="step">2</span> Catch up with your Account Manager</h4>
-          <p>Day three is the perfect time to discuss current or future plans on a one-to-one basis - but space is limited!  <a href="mailto:AM@15below.com" className="mailLink">Book Now</a> with your Account Manager to avoid disappointment.</p>
+          <p>Day 3 is the perfect time to discuss current or future plans on a one-to-one basis - but space is limited! Book now with your Account Manager to avoid disappointment.</p>
 
           <h4><span className="step">3</span> Meet the tech wizards behind 15below</h4>
           <p>This is your chance to meet the team that works hard every day to build, improve, and manage your notifications platform behind the scenes. Got a question for us? This is your opportunity to ask face-to-face!</p>
@@ -82,6 +125,11 @@ const Attend = () => (
 
         <style jsx>{`
 
+          .vimeo {
+            margin: auto;
+            align-content: center;
+            padding: 30px 0 30px 0;
+          }
 
             h3, h4 {
               font-family: "Gotham A", "Gotham B", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -90,8 +138,9 @@ const Attend = () => (
             }
 
            .mainBody p {
-              color: #959a9a !important;
-              padding-left: 30px;
+            padding: 0 20px 30px 30px;
+            margin: auto;
+            line-height: 1.2;
             }
 
             .mailLink {
@@ -120,12 +169,11 @@ const Attend = () => (
               background-color: #e00034;
               width: 280px;
               color: #ffffff;
-              padding: 1px;
+              line-height: 1;
             }
 
             .Heading {
-              padding-left: 25px;
-              width: 250px;
+              padding: 10px 0 10px 25px;
             }
 
             .verticalDiv {
@@ -142,7 +190,11 @@ const Attend = () => (
             }
         
             .col2 {
-              width: 50%;
+              width: 45%;
+            }
+
+            .col2content {
+              border: 2px dotted #d6dada;
             }
 
             .vp-center {

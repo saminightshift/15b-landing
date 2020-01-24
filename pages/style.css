@@ -6,6 +6,7 @@ body {
  p {
   font-size: 14px;
   line-height: 1.5;
+  color: #9aa2a2;
  } 
 
  h4 {
@@ -13,6 +14,9 @@ body {
    line-height: 1.2;
  }
 
+video {
+  width: 100%;
+}
 
   .signUpsec {
     margin: auto;
@@ -54,6 +58,10 @@ body {
     background: url('/CC2020-banner.png') no-repeat 40% rgba(0, 0, 0, 0.5);
     margin: auto;
     
+  }
+
+  .heroOverlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
   }
 
 button {
@@ -103,6 +111,10 @@ input::placeholder {
     padding-bottom: 40px;
    }
    
+   .spacerTop {
+     padding: 20px;
+   }
+
    .button {
     background: red;
     border-radius: 8px;
@@ -144,6 +156,19 @@ input::placeholder {
       justify-content: space-around;
     }
 
+
+    .regBar {
+      background-color: #e00034;
+      color: #ffffff;
+      text-align: center;
+      font-weight: 400 !important;
+      padding: 5px;
+    }
+
+    .registerText {
+      font-size: 11px;
+      color: #9aa2a2;
+    }
 
     /* MEDIA QUERIES */
 
