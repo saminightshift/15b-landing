@@ -13,7 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.12.0",
     "@fortawesome/react-fontawesome": "^0.1.8",
     "increase-memory-limit": "^1.0.7",
-    "next": "^9.1.5",
+    "next": "^9.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-github-corner": "^2.3.0",
